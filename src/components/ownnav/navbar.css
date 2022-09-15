@@ -1,0 +1,126 @@
+.navbars {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.nav-containers {
+  width: 100%;
+  max-width: 1024px;
+  color: #6439ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container-users {
+  width: 100%;
+  max-width: 1024px;
+  color: #6439ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logos {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.nav-buttons {
+  margin-left: 20px;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #003580;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.nav-itemss {
+  margin: 5px;
+  z-index: 5;
+}
+.user-profiles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.round-circles {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1b5ab3;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logouts {
+  margin-top: 10px;
+  margin-right: 25px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgb(123, 128, 132);
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 425px) {
+  .user-profile {
+    margin-top: 25px;
+  }
+  .nav-containers {
+    width: 100%;
+    max-width: 1024px;
+    color: #6439ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .nav-container-users {
+    width: 100%;
+    max-width: 1024px;
+    color: #6439ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .nav-buttons {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #003580;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+
+  .nav-itemss {
+    margin: 5px;
+    z-index: 5;
+  }
+}
