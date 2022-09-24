@@ -1,12 +1,16 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
+
+
+<img src="https://i.ibb.co/D7hpKCx/booking.png" alt="booking" border="0">
+
+###Live[https://guest-booking.netlify.app/]
+
+App details: Owner can create homes and rooms. Guest can book the house.
+This project contain authorization and authentication.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
