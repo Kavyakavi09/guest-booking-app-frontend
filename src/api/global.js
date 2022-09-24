@@ -1,3 +1,3 @@
-const URL = 'https://guest-booking.herokuapp.com/api';
+const URL = 'https://guest-booking.onrender.com/api';
 
 export default URL;
